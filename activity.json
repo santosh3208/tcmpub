@@ -1,0 +1,36 @@
+{
+  "name": "TCMPub",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "activity description",
+  "author": "Your Name <you.name@example.org>",
+  "inputs":[
+    {
+      "name": "url",
+      "type": "string",
+      "required" : true
+
+    }
+    {
+      "name": "authkey",
+      "type": "string",
+      "required" : true
+    }
+
+    {
+      "name": "Message",
+      "type": "string",
+      "required" : true
+    }
+
+
+  ],
+  
+
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
